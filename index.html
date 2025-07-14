@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basic Fashin Show</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="brand-logo">
+            <img src="./images/r-logo.png" alt="Fashion Store Logo" class="logo">
+            <span class="brand-name">Raj Fashion</span>
+        </div>
+        <ul class="nav-lists">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+                <form action="#" method="GET">
+                    <input type="search" placeholder="Search..">
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Style Meets Elegance</h1>
+            <p>Discover the latest fashion trends crafted for comfort and confidence.</p>
+            <a href="#" class="cta-button">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/20250714_1955_Fashion_Doodles_Art_simple_compose_01k04n56g6fayv714e94s985qp-removebg-preview.png" alt="Hero Fashion Image">
+        </div>
+    </section>
+
+    <section class="product-section">
+        <h2>Features Products</h2>
+        <div class="product-card">
+            <img src="..." alt="" class="product-image">
+
+            <div class="product-logo">
+                <img src="..." alt="Brand Logo">
+                <span class="brand-name">R Fashion</span>
+            </div>
+
+            <h3 class="product-title">Stylish Jacket</h3>
+            <p class="product-subtitle">Winter Collection</p>
+            <p class="product-description">A premium quality jacket to keep you warm and stylish throughout the season.</p>
+            
+            <div class="product-options">
+                <div class="sizes">
+                    <span>Size:</span>
+                    <button>S</button>
+                    <button>M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                </div>
+                <div class="colors">
+                    <span>Color:</span>
+                    <button class="color red"></button>
+                    <button class="color blue"></button>
+                    <button class="color green"></button>
+                    <button class="color black"></button>
+                </div>
+                
+                <p class="product-price">₹2999</p>
+                
+                <div class="product-actions">
+                    <button class="btn buy">Buy Now</button>
+                    <button class="btn cart">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 </html>

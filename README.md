@@ -1,6 +1,7 @@
 # Raj Fashion - E-commerce Website
 
-![Raj Fashion Logo](./images/r-logo.png)
+<img src="./images/r-logo.png" alt="Raj Fashion Logo" width="120"/>
+
 
 A modern, responsive fashion e-commerce website showcasing winter jackets with smooth animations and clean UI.
 

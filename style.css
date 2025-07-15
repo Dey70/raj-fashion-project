@@ -261,3 +261,54 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
 }
+/*------------------End of Product Section----------------*/
+.testimonials {
+    padding: 16px 80px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+ .testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+ }
+
+ .testimonials-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonials-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.testimonials-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.testimonials-card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.testimonials-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: #FFD700;
+    margin-top: 10px;
+}

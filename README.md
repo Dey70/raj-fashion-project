@@ -1,4 +1,4 @@
-# Raj Fashion - E-commerce Website
+# Raj Fashion: Basic E-commerce Website
 
 <img src="./images/r-logo.png" alt="Raj Fashion Logo" width="120"/>
 

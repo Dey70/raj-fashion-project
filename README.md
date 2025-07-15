@@ -51,7 +51,7 @@ A modern, responsive fashion e-commerce website showcasing winter jackets with s
    git clone https://github.com/Dey70/raj-fashion-project.git
 
 ## 🌍 Live Demo
-👉 [Live Site](https://your-live-site-link.com) 
+👉 [Live Site](https://dey70.github.io/raj-fashion-project/) 
 
 ## 📸 Screenshots
 

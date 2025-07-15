@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Fashin Show</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Inside your <head> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar">
@@ -26,7 +29,7 @@
         </ul>
     </nav>
 
-    <section class="hero">
+    <section class="hero" data-aos="fade-up">
     <div class="hero-content">
         <h1>Welcome to Raj Fashion</h1>
         <p>Discover the latest trends in fashion and style.</p>
@@ -35,7 +38,7 @@
     </section>
 
 
-    <section class="product-section">
+    <section class="product-section" data-aos="fade-up">
         <h2>Features Products</h2>
         <div class="product-grid">
 
@@ -225,7 +228,7 @@
         </form>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" data-aos="fade-left">
         <h2>Contact Us</h2>
         <p>Have questions? We'd love to hear from you.</p>
         <form class="contact-form">
@@ -235,7 +238,7 @@
             <button type="submit">Send Message</button>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-in">
         <div class="footer-content">
             <h3>Raj Fashion</h3>
             <p>Follow us on social media for the latest updates and offers.</p>
@@ -255,6 +258,11 @@
             <p class="footer-text">© 2023 Raj Fashion. All rights reserved.</p>
         </div>
     </footer>
+<!-- Before </body> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>

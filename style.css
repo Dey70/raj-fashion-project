@@ -312,3 +312,53 @@ body {
     color: #FFD700;
     margin-top: 10px;
 }
+/*------------------End of Testimonials----------------*/
+.newsletter {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.newsletter h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.newsletter button {
+    padding: 12px 30px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #e60000b7;
+}
+
+/*------------------End of Newsletter----------------*/
